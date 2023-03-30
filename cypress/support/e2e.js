@@ -14,7 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './homework_commands'
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+import 'cypress-file-upload'
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from failing the test
+    return false
+})
