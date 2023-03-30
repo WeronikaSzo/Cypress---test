@@ -1,4 +1,4 @@
-import Homework from "./locators/homework.locators";
+import Homework from "./homework.locators";
 
 const homework = new Homework();
 

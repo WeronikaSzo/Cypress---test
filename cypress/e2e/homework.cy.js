@@ -1,4 +1,4 @@
-import Homework from "../support/locators/homework.locators";
+import Homework from "../support/homework.locators";
 
 describe('Test for dwonload homework', () => {
     const email = 'user888@gmail.com';
